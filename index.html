@@ -1,0 +1,156 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Kuldeep Mehta</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <div class="social-media">
+                <a href="https://www.facebook.com/kuldeep.mehta.2720"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/kpkuldeepmehta?t=Dh7pDFOxiIQawgi8dKV6Wg&s=09"><i class='bx bxl-twitter'></i></a>
+                <a href="https://instagram.com/kuldeepmehta2720?igshid=MzNlNGNkZWQ4Mg=="><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/kuldeep-mehta-042a86248"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/mehtakuldeep"><i class="bx bxl-github"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1aGGKtZtDs1khQZihUUXhBLRdba3q9_oU/view?usp=sharing" class="btn">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="images/Screenshot 2023-07-11 004949-removebg-preview.jpg" alt="">
+        </div>
+    </section>
+
+    <!--About section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/Screenshot 2023-07-11 004949-removebg-preview.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            
+            <p class="normal">I'm Kuldeep Mehta, a passionate Machine Learning Engineer and Web Developer.
+                I'm currently pursuing a B.Tech in Computer Science with specialization in Artificial Intelligece and Machine learning from Vellore Institute of Technology-Bhopal,
+                where I gained a strong understanding of the fundamental concepts and techniques that underpin machine learning.
+                <br>
+                <span id="dots"></span>
+                <span class="read-more-text" id="more">I am well-versed in the entire machine learning pipeline, from data preprocessing and feature engineering to model selection and evaluation. 
+                I have gained valuable experience in utilizing popular frameworks and libraries such as TensorFlow, Keras, PyTorch, and scikit-learn to develop and train machine learning models. 
+                Throughout my academic journey, I have actively sought opportunities to enhance my practical skills and apply theoretical knowledge to real-world problems.
+                Additionally, I am proficient in programming languages like Python,Java and have a strong understanding of deep learning architectures and algorithms. 
+                <br> On the Web Development Front,I have a strong proficiency in front-end and back-end technologies. 
+                I am skilled in HTML, CSS, JavaScript, and have hands-on experience with popular frameworks like React and Angular.
+                I have successfully built responsive and user-friendly websites, paying close attention to design principles and user experience.
+                Additionally, I have a solid understanding of back-end technologies such as Node.js and Express.js, ensuring robust and secure web applications.
+                </span>
+            </p>
+            <button onclick="myFunction()" id="myBtn" class="btn">Read more</button>
+            
+        </div>
+        
+    </section>
+
+    <!--Skills Section design-->
+    <section class="skills" id="skills">
+        <h2 class="heading"><span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>I have strong front-end and back-end development skills, proficient in HTML, CSS,
+                     JavaScript, React, Node.js, Express.js, and database management.</p>
+            </div>
+            <div class="skills-box">
+                <i class='bx bxl-python'></i>
+                <h3>Machine Learning</h3>
+                <p>I possess extensive machine learning skills, including expertise in TensorFlow, 
+                    Keras, PyTorch, scikit-learn, and the entire machine learning pipeline.</p>
+            </div>
+            <div class="skills-box">
+                <i class='bx bx-line-chart' ></i>
+                <h3>Data Analytics</h3>
+                <p>
+                    I have strong data analyst skills, proficient in data preprocessing, exploratory data analysis, 
+                    statistical modeling, and data visualization using tools like Python, SQL, and Tableau.</p>
+            </div>
+        </div>
+    </section>
+    <!--Portfolio Section Design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading"><span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/heart.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Heart Failure Prediction</h4>
+                    <p>A ML model that predicts whether the person is prone to heart-attack or not using his Medical data.</p>
+                    <a href="https://github.com/mehtakuldeep/Heart-Failure-Prediction"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/twitter.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Twitter Sentiment Analysis using LSTM</h4>
+                    <p>Classification of tweets as positive or negative using NLP and Deep Learning.</p>
+                    <a href="https://github.com/mehtakuldeep/Twitter-Sentiment-Analysis-Using-LSTM"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/potato.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Potato Leaves Disease Detection</h4>
+                    <p>Classification of potato plant as healthy or diseased using VGG16.</p>
+                    <a href="https://github.com/mehtakuldeep/Potato-Leaves-Disease-Detection"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact Section Design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="https://formsubmit.co/mehta.kuldeep.2002@gmail.com" method="post" onclick="reset">
+            <div class="input-box">
+                <input type="text" id="name" name="name" placeholder="Full Name">
+                <input type="email" id="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" id="mob" name="mobile" placeholder="Mobile Number">
+                <input type="text" id="sub" name="Subject" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="body" cols="30" rows="10" name="message" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <!--Footer Design-->
+    <footer class="footer">
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal-->
+    <script src = "https://unpkg.com/scrollreveal"></script>
+    <!--Typed JS-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
